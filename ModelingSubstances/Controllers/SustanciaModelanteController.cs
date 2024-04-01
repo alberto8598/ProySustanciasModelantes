@@ -15,11 +15,11 @@ namespace ModelingSubstances.Controllers
     public class SustanciaModelanteController : Controller
     {
         SustaciaModelanteUseCase sustaciaModelanteUseCase = new SustaciaModelanteUseCase();
-        private readonly VehicleDbContext _vehicleDbContext;
+        private readonly ModelingSubstancesDbContext _modelingSubstancesDbContext;
         
-         public SustanciaModelanteController(VehicleDbContext vehicleDbContext)
+         public SustanciaModelanteController(ModelingSubstancesDbContext modelingSubstancesDbContext)
          {
-             _vehicleDbContext = vehicleDbContext;
+            _modelingSubstancesDbContext = modelingSubstancesDbContext;
          }
 
         [HttpGet]

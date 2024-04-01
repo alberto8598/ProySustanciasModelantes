@@ -10,7 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<VehicleDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("VehicleConnectionString")));
+builder.Services.AddDbContext<ModelingSubstancesDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("VehicleConnectionString")));
 
 var app = builder.Build();
 
