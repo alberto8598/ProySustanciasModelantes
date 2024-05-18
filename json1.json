@@ -1,0 +1,115 @@
+[{
+    "fechaTransaccion": "2024-03-14T05:00:00.000+00:00",
+    "tipoTransaccion": "01",
+    "tipoUsuarioAdquiriente": "Persona Natural",
+    "nombreRazonSocialAdquiriente": "asdasd",
+    "tipoDocumentoAdquiriente": "CC",
+    "numeroDocumentoAdquiriente": 123123,
+    "tipoUsuarioSuministrador": "Persona Natural",
+    "nombreRazonSocialSuministrador": "123123",
+    "tipoDocumentoSuministrador": "NIT",
+    "numeroDocumentoSuministrador": 123123,
+    "codigoHabilitacionSuministrador": 1231,
+    "tipoUsuarioReceptor": "ABC",
+    "nombreRazonSocialReceptor": "ABC",
+    "tipoDocumentoReceptor": "ABC",
+    "numeroDocumentoReceptor": 123,
+    "numeroFactura": "sda123",
+    "cantidadVendida": "123",
+    "cantidadAplicada": "123",
+    "numeroLote": "123asd",
+    "indicacionesUso": "asdasdasd asd adasdasd asd asd ad ",
+    "usuarioReportante": {
+      "id": 2,
+      "tipoUsuario": "Persona Natural",
+      "nombreRazonSocial": "persona 1",
+      "tipoDocumento": "CC",
+      "numeroDocumento": 11231231,
+      "rolActor": "1",
+      "correoElectronico": "asd@as.com",
+      "numeroRadicado": "202403142953-0001",
+      "fechaRegistro": "2024-03-14T17:29:53.123095",
+      "direccionResidencia": "asd",
+      "pais": {
+        "id": 2,
+        "nombre": "asd"
+      },
+      "departamento": {
+        "id": 2,
+        "nombre": "asd"
+      },
+      "ciudad": {
+        "id": 2,
+        "nombre": "asd"
+      },
+      "sustanciaModelante": {
+        "id": 2,
+        "codigo": "123",
+        "nombreSustancia": "ACIDO HIALURONICO NO RETICULADO + SOLUCIÓN REVITALIZANTE",
+        "numeroRegistroSanitario": "INVIMA 2015DM-0013077",
+        "sustancia": "ACIDO HIALURONICO NO RETICULADO + SOLUCIÓN REVITALIZANTE",
+        "usoAprobado": "IMPLANTABLE INYECTABLE INDICADO PARA EL RELLENO DE ARRUGAS SUPERFICIALES A PROFUNDAS EN EL ROSTRO, PARA MEJORAR Y AUMENTAR EL VOLUMEN DE LOS LABIOS, PARA TRATAR DEFECTOS FACIALES DE VOLUMEN/LIPO DISTROFIAS (INCLUYENDO PACIENTES QUE SUFREN DE VIH). ALGUNAS DE SUS PRESENTACIONES CONTIENEN HIDROCLORURO DE LIDOCAINA PARA REDUCIR EL DOLOR ASOCIADO A LA INYECCION.",
+        "estado": "ACTIVO",
+        "fechaVencimiento": "2025-03-14T05:00:00.000+00:00",
+        "referencia": "STYLAGEÒ Special Lips Licodaína: CAJA CON 1 BLISTER, CONTENIENDO 1 JERINGA PRELLENADA CON 1 ML Y DOS AGUJAS DE 30G ½."
+      }
+    }
+  },
+  {
+    "fechaTransaccion": "2024-03-15T05:00:00.000+00:00",
+    "tipoTransaccion": "01",
+    "tipoUsuarioAdquiriente": "Persona Natural",
+    "nombreRazonSocialAdquiriente": "asdasd",
+    "tipoDocumentoAdquiriente": "NIT",
+    "numeroDocumentoAdquiriente": 1231231,
+    "tipoUsuarioSuministrador": "Persona Natural",
+    "nombreRazonSocialSuministrador": "asd",
+    "tipoDocumentoSuministrador": "PA",
+    "numeroDocumentoSuministrador": 123123,
+    "codigoHabilitacionSuministrador": 1231,
+    "tipoUsuarioReceptor": "ABC",
+    "nombreRazonSocialReceptor": "ABC",
+    "tipoDocumentoReceptor": "ABC",
+    "numeroDocumentoReceptor": 123,
+    "numeroFactura": "123",
+    "cantidadVendida": "123",
+    "cantidadAplicada": 123,
+    "numeroLote": "123",
+    "indicacionesUso": "adasd asd adasd",
+    "usuarioReportante": {
+      "id": 3,
+      "tipoUsuario": "Persona Natural",
+      "nombreRazonSocial": "persona 2",
+      "tipoDocumento": "CC",
+      "numeroDocumento": 123456,
+      "rolActor": "1",
+      "correoElectronico": "asdasd@asd.com",
+      "numeroRadicado": "202403151239-0002",
+      "fechaRegistro": "2024-03-15T10:12:39.215995",
+      "direccionResidencia": "asdc",
+      "pais": {
+        "id": 3,
+        "nombre": "col"
+      },
+      "departamento": {
+        "id": 3,
+        "nombre": "cun"
+      },
+      "ciudad": {
+        "id": 3,
+        "nombre": "bog"
+      },
+      "sustanciaModelante": {
+        "id": 3,
+        "codigo": 1234,
+        "nombreSustancia": "ACIDO HIALURONICO NO RETICULADO + SOLUCIÓN REVITALIZANTE",
+        "numeroRegistroSanitario": "INVIMA 2015DM-0013077",
+        "sustancia": "ACIDO HIALURONICO NO RETICULADO + SOLUCIÓN REVITALIZANTE",
+        "usoAprobado": "IMPLANTABLE INYECTABLE INDICADO PARA EL RELLENO DE ARRUGAS SUPERFICIALES A PROFUNDAS EN EL ROSTRO, PARA MEJORAR Y AUMENTAR EL VOLUMEN DE LOS LABIOS, PARA TRATAR DEFECTOS FACIALES DE VOLUMEN/LIPO DISTROFIAS (INCLUYENDO PACIENTES QUE SUFREN DE VIH). ALGUNAS DE SUS PRESENTACIONES CONTIENEN HIDROCLORURO DE LIDOCAINA PARA REDUCIR EL DOLOR ASOCIADO A LA INYECCION.",
+        "estado": "ACTIVO",
+        "fechaVencimiento": "2025-03-14T05:00:00.000+00:00",
+        "referencia": "STYLAGEÒ Special Lips Licodaína: CAJA CON 1 BLISTER, CONTENIENDO 1 JERINGA PRELLENADA CON 1 ML Y DOS AGUJAS DE 30G ½."
+      }
+    }
+  }
+  ]
